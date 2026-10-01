@@ -1,6 +1,4 @@
 #include <stdio.h>
-
-// Bubble Sort function
 void bubble(int arr[], int n)
 {
     int i, j, temp;
@@ -18,8 +16,6 @@ void bubble(int arr[], int n)
         }
     }
 }
-
-// Merge function
 void merge(int arr[], int low, int mid, int high)
 {
     int temp[100];
@@ -44,8 +40,6 @@ void merge(int arr[], int low, int mid, int high)
     for (i = low; i <= high; i++)
         arr[i] = temp[i];
 }
-
-// Merge Sort function
 void mergeSort(int arr[], int low, int high)
 {
     int mid;
@@ -74,8 +68,7 @@ int main()
     {
         scanf("%d", &arr[i]);
     }
-
-    while (1)
+ while (1)
     {
         printf("\n\n--- SORTING MENU ---\n");
         printf("1. Bubble Sort\n");
